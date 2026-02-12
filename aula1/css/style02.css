@@ -1,0 +1,8 @@
+body {
+    background-image: url(/aula1/img/gatos.png);
+    background-repeat: no-repeat;
+    color:blue;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
