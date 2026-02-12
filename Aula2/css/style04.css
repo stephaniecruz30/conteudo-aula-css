@@ -1,0 +1,15 @@
+body{
+    background-color: aqua;
+    justify-items: center;
+}
+
+.el1{
+   width: 500px; 
+}
+
+.ex2{
+    width: 500px;
+    padding:50px;
+    box-sizing: border-box;
+    background-color: pink;
+}
