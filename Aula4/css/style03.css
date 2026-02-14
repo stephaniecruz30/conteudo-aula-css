@@ -1,0 +1,8 @@
+body{
+    background-color:paleturquoise;
+}
+
+.ex1{
+ list-style-image: url(../img/happy.svg); 
+ list-style-type: disc;  
+}
