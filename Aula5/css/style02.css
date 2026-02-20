@@ -1,0 +1,93 @@
+body {
+  background-color: mediumpurple;
+  color: white;
+}
+/*Exemplo de Justify-content:center*/
+.ex1 {
+  display: flex;
+  justify-content: center;
+  background-color: darkorchid;
+  gap: 30px;
+}
+
+.ex1 div {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background-color: darkmagenta;
+}
+
+/*Exemplo de Justify-content:flex-start*/
+.ex2 {
+  display: flex;
+  justify-content: flex-start;
+  background-color: darkorchid;
+  gap: 30px;
+}
+
+.ex2 div {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background-color: darkmagenta;
+}
+
+/*Exemplo de Justify-content:flex-end*/
+.ex3 {
+  display: flex;
+  justify-content: flex-end;
+  background-color: darkorchid;
+  gap: 30px;
+}
+
+.ex3 div {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background-color: darkmagenta;
+}
+
+/*Exemplo de justify-content: space-around*/
+.ex4 {
+  display: flex;
+  justify-content: space-around;
+  background-color: darkorchid;
+  gap: 30px;
+}
+
+.ex4 div {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background-color: darkmagenta;
+}
+
+/*Exemplo de justify-content: space-between*/
+.ex5 {
+  display: flex;
+  justify-content: space-between;
+  background-color: darkorchid;
+  gap: 30px;
+}
+
+.ex5 div {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background-color: darkmagenta;
+}
+
+/*Exemplo de justify-content: space-evenly*/
+.ex6 {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: darkorchid;
+  gap: 30px;
+}
+
+.ex6 div {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background-color: darkmagenta;
+}
