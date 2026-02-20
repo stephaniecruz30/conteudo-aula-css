@@ -1,0 +1,126 @@
+body {
+  background-color: mediumpurple;
+  color: white;
+}
+/*Exemplo de Align-items:center*/
+.ex1 {
+  display: flex;
+  height: 200px;
+  align-items: center;
+  gap: 30px;
+  background-color: blueviolet;
+}
+
+.ex1 div {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background-color: white;
+  color: darkmagenta;
+}
+
+/*Exemplo de Align-items:flex-start*/
+.ex2 {
+  display: flex;
+  height: 200px;
+  align-items: flex-start;
+  gap: 30px;
+  background-color: blueviolet;
+}
+
+.ex2 div {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background-color: white;
+  color: darkmagenta;
+}
+
+/*Exemplo de Align-items:flex-end*/
+.ex3 {
+  display: flex;
+  height: 200px;
+  align-items: flex-end;
+  gap: 30px;
+  background-color: blueviolet;
+}
+
+.ex3 div {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background-color: white;
+  color: darkmagenta;
+}
+
+/*Exemplo de Align-items:stretch*/
+.ex4 {
+  display: flex;
+  height: 200px;
+  align-items: stretch;
+  gap: 30px;
+  background-color: blueviolet;
+}
+
+.ex4 div {
+  width: 100px;
+  text-align: center;
+  background-color: white;
+  color: darkmagenta;
+}
+
+/*Exemplo de Align-content:center*/
+.ex5 {
+  display: flex;
+  height: 400px;
+  height: 100px;
+  text-align: center;
+  align-content: center;
+  gap: 30px;
+  background-color: blueviolet;
+}
+
+.ex5 div {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background-color: white;
+  color: darkmagenta;
+}
+/*Exemplo de Align-content:space-between*/
+.ex6 {
+  display: flex;
+  height: 300px;
+  text-align: center;
+  align-content: space-between;
+  gap: 30px;
+  background-color: purple;
+}
+
+.ex6 div {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background-color: white;
+  color: darkmagenta;
+}
+
+/*Exemplo de Align-content:center e justify-content: center*/
+.ex7 {
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+  align-content: center;
+  justify-content: center;
+  gap: 30px;
+  background-color: purple;
+}
+
+.ex7 div {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  align-content: center;
+  background-color: white;
+  color: darkmagenta;
+}
